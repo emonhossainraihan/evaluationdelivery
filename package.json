@@ -1,0 +1,21 @@
+{
+  "name": "evaluationdelivery",
+  "version": "1.0.0",
+  "description": "- [How to Deploy a Static Website to Heroku](https://medium.com/@adityaniloi/how-to-deploy-a-static-website-to-heroku-49d55e07cb94)",
+  "main": "index.js",
+  "scripts": {
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emonhossainraihan/evaluationdelivery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emonhossainraihan/evaluationdelivery/issues"
+  },
+  "homepage": "https://github.com/emonhossainraihan/evaluationdelivery#readme"
+}
