@@ -28,18 +28,10 @@
     />
     <link rel="stylesheet" href="./ASAP Deliveries_files/animate.min.css" />
 
-    <!-- Global site tag (gtag.js) - Google Analytics 
-    <script async="" src="./ASAP Deliveries_files/js"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'UA-114920542-1');
-	</script>
-	-->
+    <script
+      src="https://kit.fontawesome.com/5572a15921.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- end -->
     <style>
       #one {
@@ -139,7 +131,7 @@
           style="height: 40px; vertical-align: middle; margin-bottom: 10px;"
         >
           <div class="col-ld-7 col-md-7 col-sm-12 col-xs-12 text-left">
-            <span class="glyphicon glyphicon-earphone"></span> &nbsp; +
+            <span><i class="fa fa-phone" aria-hidden="true"></i></span> &nbsp; +
             8801741177254 &nbsp;&nbsp;&nbsp;&nbsp;
             <span style="color: #96a0ab;">|</span> &nbsp;&nbsp; &nbsp;&nbsp;
             <i class="fas fa-clock"></i> Sat - Thur 10:00 - 18:00 / Partically
@@ -150,7 +142,7 @@
               <a
                 title="asapdeliveries.com.bd"
                 target="_blank"
-                href="https://www.facebook.com/123miraaj"
+                href="https://www.facebook.com/evaluationdelivery"
               >
                 <i class="fa fa-facebook facebook1"></i>
               </a>
@@ -182,7 +174,7 @@
                     </button>
                     <a class="navbar-brand" href="/home">
                       <img
-                        src="./ASAP Deliveries_files/logo_stoke.png"
+                        src="./ASAP Deliveries_files/newLOGO.jpg"
                         alt=""
                         class="custom-logo"
                       />
@@ -208,10 +200,6 @@
                       <li>
                         <a href="#pricing">Pricing</a>
                       </li>
-                      <span class="signin-button">
-                        <!--<a href="#" data-toggle="modal" data-target="#login">Login</a>-->
-                        <a href="/sign-in">Login / Sign-up</a>
-                      </span>
                     </ul>
                   </div>
                   <!-- /.navbar-collapse -->
@@ -239,33 +227,6 @@
                   class="img-responsive"
                 />
               </div>
-              <br /><br />
-              <p
-                style="letter-spacing: 3px;"
-                class="animated fadeInUp"
-                data-animation-effect="fadeInUp"
-                data-effect-delay="200"
-              >
-                MOVING WITH US
-              </p>
-              <h1
-                class="animated fadeInUp slider-text-1"
-                data-animation-effect="fadeInUp"
-                data-effect-delay="300"
-              >
-                Super-fast and fuss-free <br />
-                delivery service
-              </h1>
-
-              <img
-                src="./ASAP Deliveries_files/h1-slide2-separator-light.png"
-                alt=""
-                class="animated fadeInUp"
-                data-animation-effect="fadeInUp"
-                data-effect-delay="400"
-              />
-              <br />
-              <br />
               <br />
               <a
                 href="#pricing"
@@ -274,283 +235,8 @@
                 data-effect-delay="500"
                 >Our Price</a
               >
-              &nbsp; &nbsp;
-
-              <!--<a href="#pricing" class="btn btn-lg btn-danger animated fadeInUp"  data-animation-effect="fadeInUp" data-effect-delay="500">Our Price</a> &nbsp;  &nbsp;  -->
-              <!-- Button trigger modal -->
-              <button
-                type="button"
-                class="btn btn-lg btn-primary2 animated fadeInUp"
-                onclick=" relocate_home()"
-              >
-                Register Now
-              </button>
-
-              <!--<button type="button" class="btn btn-lg btn-primary2 animated fadeInUp" data-toggle="modal" data-target="#register" data-animation-effect="fadeInUp" data-effect-delay="600" onclick=" relocate_home()">Register Now</button>-->
-              <!-- Modal -->
-              <div
-                class="modal fade bs-example-modal-lg"
-                id="register"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="myLargeModalLabel"
-              >
-                <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                    <div
-                      class="modal-header"
-                      style="background-color: #f37e69;"
-                    >
-                      <button
-                        type="button"
-                        class="close"
-                        data-dismiss="modal"
-                        aria-label="Close"
-                      >
-                        <span aria-hidden="true">×</span>
-                      </button>
-                      <h4 class="modal-title" id="myModalLabel">
-                        Registration Form
-                      </h4>
-                    </div>
-                    <form
-                      id="registerForm"
-                      method="post"
-                      action="https://www.asapdeliveries.com.bd/home/register"
-                      enctype="multipart/form-data"
-                      class="form-horizontal form-label-left"
-                    >
-                      <div class="modal-body text-left" style="color: #000;">
-                        <div class="row" style="padding: 20px;">
-                          <div
-                            class="col-md-6 col-sm-6 col-xs-12"
-                            style="padding-right: 20px;"
-                          >
-                            <div class="item form-group">
-                              <label for="business_name"
-                                >Business Name
-                                <span class="text-danger">*</span></label
-                              >
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="business_name"
-                                name="business_name"
-                                placeholder="Enter Your Business Name"
-                                tabindex="1"
-                                required="required"
-                              />
-                            </div>
-                            <div class="item form-group">
-                              <label for="full_name"
-                                >Full Name
-                                <span class="text-danger">*</span></label
-                              >
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="full_name"
-                                name="full_name"
-                                placeholder="Enter Your Full Name"
-                                tabindex="2"
-                                required="required"
-                              />
-                            </div>
-                            <div class="item form-group">
-                              <label for="mobile"
-                                >Phone or Mobile
-                                <span class="text-danger">*</span></label
-                              >
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="mobile"
-                                name="mobile"
-                                placeholder="01xxxxxxxxx, 01xxxxxxxxx"
-                                tabindex="3"
-                                required="required"
-                              />
-                            </div>
-                            <div class="item form-group">
-                              <label for="regEmaild"
-                                >E-mail Address
-                                <span class="text-danger">*</span></label
-                              >
-                              <input
-                                type="email"
-                                class="form-control"
-                                id="regEmail"
-                                name="email"
-                                placeholder="Enter Your E-mail Address"
-                                tabindex="4"
-                                required="required"
-                              />
-
-                              <div id="email_atart"></div>
-                            </div>
-
-                            <div class="item form-group">
-                              <label for="city_id"
-                                >City <span class="text-danger">*</span></label
-                              >
-                              <select
-                                name="city_id"
-                                id="city_id"
-                                class="form-control"
-                                tabindex="5"
-                                required="required"
-                              >
-                                <option selected="selected"
-                                  >Select Your City</option
-                                >
-                                <option value="8"> Sylhet </option>
-                                <option value="7"> Chittagong </option>
-                                <option value="6"> Mymensing </option>
-                                <option value="5"> Rangpur </option>
-                                <option value="4"> Khulna </option>
-                                <option value="3"> Rajshahi </option>
-                                <option value="2"> Barishal </option>
-                                <option value="1"> Dhaka </option>
-                              </select>
-                            </div>
-                            <div class="item form-group">
-                              <label for="address"
-                                >Address
-                                <span class="text-danger">*</span></label
-                              >
-                              <textarea
-                                class="form-control"
-                                name="address"
-                                id="address"
-                                cols="15"
-                                rows="3"
-                                placeholder="Your Address"
-                                tabindex="6"
-                                required="required"
-                              ></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="item form-group">
-                              <label for="facebook_url"
-                                >Facebook Page URL
-                                <span class="text-danger">*</span></label
-                              >
-                              <input
-                                type="url"
-                                class="form-control"
-                                id="facebook_url"
-                                name="facebook_url"
-                                placeholder="facebook.com/asapdeliveriesbd"
-                                tabindex="7"
-                                required="required"
-                              />
-                            </div>
-                            <div class="item form-group">
-                              <label
-                                for="client_user_name"
-                                title="Don&#39;t use space in user name for ex: firstName_lastName"
-                                >Login userName
-                                <span class="text-danger">*</span>
-                                <sub style="color: #fd8a8a;"
-                                  >Don't use space in user name for ex:
-                                  firstName_lastName
-                                </sub>
-                              </label>
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="client_user_name"
-                                name="client_user_name"
-                                placeholder="firstName_lastName"
-                                tabindex="8"
-                                required="required"
-                                title="Don&#39;t use space in user name for ex: firstName_lastName"
-                              />
-                            </div>
-                            <div class="item form-group">
-                              <label for="password"
-                                >Password
-                                <span class="text-danger">*</span></label
-                              >
-                              <input
-                                type="password"
-                                class="form-control"
-                                id="password"
-                                name="password"
-                                placeholder="Password length 6, 8"
-                                tabindex="9"
-                                required="required"
-                                data-validate-length="6,8"
-                              />
-                            </div>
-                            <div class="item form-group">
-                              <label for="password2">Confirm Password</label>
-                              <input
-                                id="password2"
-                                type="password"
-                                name="password2"
-                                data-validate-linked="password"
-                                class="form-control col-md-7 col-xs-12"
-                                required="required"
-                                placeholder="Confirm Password"
-                                tabindex="10"
-                              />
-                            </div>
-                            <div class="item form-group">
-                              <label for="payment_method"
-                                >Payment Method
-                                <span class="text-danger">*</span></label
-                              >
-                              <select
-                                class="form-control"
-                                id="payment_method"
-                                name="payment_method"
-                                tabindex="11"
-                                required="required"
-                              >
-                                <option value="" selected="selected">
-                                  How you want to get paid ?</option
-                                >
-                                <option value="2">Bank</option>
-                                <option value="3">bKash</option>
-                              </select>
-                            </div>
-                            <div class="item form-group">
-                              <label for="payment_details"
-                                >Payment Details
-                                <span class="text-danger">*</span></label
-                              >
-                              <textarea
-                                class="form-control"
-                                name="payment_details"
-                                id="payment_details"
-                                cols="15"
-                                rows="3"
-                                placeholder="Payment Detail "
-                                tabindex="12"
-                                required="required"
-                              ></textarea>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="modal-footer" style="text-align: center;">
-                        <button
-                          id="send"
-                          type="submit"
-                          class="btn btn-primary"
-                          tabindex="13"
-                        >
-                          Register
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-              <!-- end modal -->
             </div>
+            <h1 style="text-align: center;">Evaluation Delivery Services</h1>
           </div>
         </div>
       </div>
@@ -900,15 +586,6 @@
                 dedicated delivery executives for large businesses, according to
                 requirement. Same day urgent delivery is also available.
               </p>
-              <a
-                href="http://asapdeliveries.com.bd/#"
-                class="btn btn-sm btn-primary2 pull-right"
-                data-toggle="modal"
-                data-animation-effect="fadeInUp"
-                data-effect-delay="100"
-                data-target="#modal2"
-                >Read More</a
-              >
             </div>
             <!-- Modal -->
             <div
@@ -1306,14 +983,7 @@
                   </ul>
                 </div>
 
-                <div class="sign-up">
-                  <a
-                    class="btn btn-primary2"
-                    href="https://portal.asapdeliveries.com.bd/sign-up"
-                  >
-                    Register Now
-                  </a>
-                </div>
+                <div class="sign-up"></div>
               </div>
             </div>
           </div>
@@ -1346,17 +1016,7 @@
                   </ul>
                 </div>
 
-                <div class="sign-up">
-                  <!--<a class="btn btn-primary2" href="#" data-toggle="modal"  data-target="#register">-->
-                  <!--    Register Now-->
-                  <!--</a>-->
-                  <a
-                    class="btn btn-primary2"
-                    href="https://portal.asapdeliveries.com.bd/sign-up"
-                  >
-                    Register Now
-                  </a>
-                </div>
+                <div class="sign-up"></div>
               </div>
             </div>
           </div>
@@ -1389,17 +1049,7 @@
                   </ul>
                 </div>
 
-                <div class="sign-up">
-                  <!--<a class="btn btn-primary2" href="#" data-toggle="modal"  data-target="#register">-->
-                  <!--    Register Now-->
-                  <!--</a>-->
-                  <a
-                    class="btn btn-primary2"
-                    href="https://portal.asapdeliveries.com.bd/sign-up"
-                  >
-                    Register Now
-                  </a>
-                </div>
+                <div class="sign-up"></div>
               </div>
             </div>
           </div>
@@ -1435,17 +1085,7 @@
                     <!--                                    <li class="li2"></li>-->
                   </ul>
                 </div>
-                <div class="sign-up">
-                  <!--<a class="btn btn-primary2" href="#" data-toggle="modal"  data-target="#register">-->
-                  <!--    Register Now-->
-                  <!--</a>-->
-                  <a
-                    class="btn btn-primary2"
-                    href="https://portal.asapdeliveries.com.bd/sign-up"
-                  >
-                    Register Now
-                  </a>
-                </div>
+                <div class="sign-up"></div>
               </div>
             </div>
           </div>
@@ -2418,7 +2058,7 @@
             <br /><br /><br />
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div
             class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center aos-init aos-animate"
             data-aos="fade-left"
@@ -2458,7 +2098,7 @@
               </button>
             </form>
           </div>
-        </div>
+        </div> -->
         <br /><br />
         <div class="row">
           <div
@@ -2468,7 +2108,7 @@
             data-aos-duration="1000"
           >
             <a
-              href="https://www.facebook.com/asapdeliveriesbd"
+              href="https://www.facebook.com/evaluationdelivery"
               target="_blank"
               class="social-icon-hover"
             >
@@ -2487,7 +2127,7 @@
               </div>
             </a>
           </div>
-          <div
+          <!-- <div
             class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center aos-init"
             data-aos="zoom-in-up"
             data-aos-easing="ease-out-cubic"
@@ -2564,7 +2204,7 @@
                 ></div>
               </div>
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -2577,62 +2217,9 @@
       "
     >
       <div class="container">
-        <!-- <div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<h3>About Company</h3>
-				<div class="mkd-separator-holder clearfix">
-					<div class="mkd-separator" style="border-color: #f05034;border-style: solid;width: 75px;border-bottom-width: 2px"></div>
-				</div>
-				<a href="#" class="link"> Company History </a>
-				<a href="#" class="link"> About Us </a>
-				<a href="#" class="link"> Our Team</a>
-				<a href="#" class="link"> Our Process </a>
-				<a href="#" class="link"> Our Projects </a>
-				<a href="#" class="link"> Pricing Plans </a>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<h3>Useful Information</h3>
-				<div class="mkd-separator-holder clearfix">
-					<div class="mkd-separator" style="border-color: #f05034;border-style: solid;width: 75px;border-bottom-width: 2px"></div>
-				</div>
-				<a href="#" class="link"> Contact Us </a>
-				<a href="#" class="link"> Our Clients </a>
-				<a href="#" class="link"> FAQ</a>
-				<a href="#" class="link"> Get In Touch </a>
-				<a href="#" class="link"> Product List </a>
-				<a href="#" class="link"> Pricing Plans </a>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<h3>Additional Links</h3>
-				<div class="mkd-separator-holder clearfix">
-					<div class="mkd-separator" style="border-color: #f05034;border-style: solid;width: 75px;border-bottom-width: 2px"></div>
-				</div>
-				<a href="#" class="link"> Latest Posts </a>
-				<a href="#" class="link"> Coming Soon </a>
-				<a href="#" class="link"> About Us – Parallax</a>
-				<a href="#" class="link"> Cart </a>
-				<a href="#" class="link"> Checkout </a>
-				<a href="#" class="link"> Wishlist </a>
-			</div>
-		 -->
-        <!-- <div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-				<a href="#">
-					<img src="https://www.asapdeliveries.com.bd/resource/images/asap-L.png" alt="" class="img-resonsive">
-			    </a>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
-				<h3>About Our Company</h3>
-				<p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quis quod libero consequatur eius doloremque perferendis, facere at earum aspernatur perspiciatis doloribus laboriosam corporis beatae, saepe, sed unde officia explicabo.</p>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<h3>Check Out The Best Discounts</h3>
-				<a href="" class="btn btn-lg btn-default" style="border-radius: 0px;color: rgb(255, 255, 255);background-color: rgb(69, 69, 69);border-color: rgb(69, 69, 69);">Discounts</a>
-			</div>
-		</div> -->
         <div class="row">
           <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-            <p align="left">Copyright 2018 © ASAP Deliveries</p>
+            <p align="left">Copyright 2020 © Evaluation Delivery</p>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <p align="right">
